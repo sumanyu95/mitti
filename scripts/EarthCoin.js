@@ -13,21 +13,21 @@ async function main() {
   // manually to make sure everything is compiled
   // await hre.run('compile');
 
-    
+
       const EarthCoin = await hre.ethers.getContractFactory("EarthCoin");
-      
+
       const ECcontract = await EarthCoin.attach(
           "0x86c476b1687698099688f541ab24ea7416bd566b" // The deployed contract address
         );
-    
+
       // await ECcontract.addMinter("");
-        
+
       //  await ECcontract.removeMinter("");
-        
+
       //  await ECcontract.mint("","1000000000000000000");
-    
-    const ECcanmint  = await ECcontract.CAN_MINT();
-    console.log("ECcanmint :", ECcanmint);
+
+      //const ECcanmint  = await ECcontract.CAN_MINT();
+      //console.log("ECcanmint :", ECcanmint);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
