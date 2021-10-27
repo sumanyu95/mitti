@@ -1,6 +1,6 @@
 ## SolarpunkDao
 
-### Matic Testnet 
+### Matic Testnet
 
 
 1 ) EarthCoin deployed to: 0x86C476b1687698099688f541ab24ea7416bd566B
@@ -10,6 +10,6 @@
 
 ## Scripts :
 
-Deploy all Contracts : npx hardhat run --network matic scripts/EarthCoin.js
+Deploy all Contracts : npx hardhat run --network matic scripts/deployAll.js
 
 Earthcoin Contract script : npx hardhat run --network matic scripts/EarthCoin.js
