@@ -3,10 +3,13 @@
 ### Matic Testnet
 
 
-1 ) EarthCoin deployed to: 0x86C476b1687698099688f541ab24ea7416bd566B
+1 ) EarthCoin deployed to: 0x322b400cfB4B0BB9E92233aF618DE071dB154C97
 
- - Scanner : https://mumbai.polygonscan.com/address/0x1cb656256d26c9e6ff92c3fd95ec6751b97aaae9
+ - Scanner : https://mumbai.polygonscan.com/address/0x322b400cfB4B0BB9E92233aF618DE071dB154C97
 
+2) ExitQueue deployed to: 0xF526AD758fBa33f06e5De12823D78Ff342582C67
+
+- Scanner : https://mumbai.polygonscan.com/address/0xF526AD758fBa33f06e5De12823D78Ff342582C67
 
 ## Scripts :
 

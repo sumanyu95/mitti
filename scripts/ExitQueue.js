@@ -14,22 +14,11 @@ async function main() {
   // await hre.run('compile');
 
 
+      const EarthCoin = await hre.ethers.getContractFactory("ExitQueue");
 
-  const EarthCoin = await hre.ethers.getContractFactory("EarthCoin");
-  const earthCoin = await EarthCoin.deploy();
-
-  await earthCoin.deployed();
-  console.log("earthCoin deployed to:", earthCoin.address);
-
-
-  const ExitQueue = await hre.ethers.getContractFactory("ExitQueue");
-  const exitQueue = await ExitQueue.deploy(earthCoin.address,1000000000000,1000000000000,10);
-
-  await exitQueue.deployed();
-  console.log("exitQueue deployed to:", exitQueue.address);
-
-
-
+      const ECcontract = await EarthCoin.attach(
+          "0xF526AD758fBa33f06e5De12823D78Ff342582C67" // The deployed contract address
+        );
 
 
 

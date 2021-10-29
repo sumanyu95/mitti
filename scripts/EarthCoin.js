@@ -17,14 +17,14 @@ async function main() {
       const EarthCoin = await hre.ethers.getContractFactory("EarthCoin");
 
       const ECcontract = await EarthCoin.attach(
-          "0x86c476b1687698099688f541ab24ea7416bd566b" // The deployed contract address
+          "0x322b400cfB4B0BB9E92233aF618DE071dB154C97" // The deployed contract address
         );
 
-      // await ECcontract.addMinter("");
+       await ECcontract.addMinter("");
 
       //  await ECcontract.removeMinter("");
 
-      //  await ECcontract.mint("","1000000000000000000");
+        await ECcontract.mint("","1000000000000000000");
 
       //const ECcanmint  = await ECcontract.CAN_MINT();
       //console.log("ECcanmint :", ECcanmint);
